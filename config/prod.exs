@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 config :live_view_counter, LiveViewCounterWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT")],
-  url: [host: System.get_env("WEB_HOST"), port: 80],
+  url: [host: System.get_env("WEB_HOST"), port: 5000],
   load_from_system_env: true,
   cache_static_manifest: "priv/static/cache_manifest.json"
 
